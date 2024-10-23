@@ -335,10 +335,10 @@ namespace OnlineCoursesApp.DAL.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "0a96fdbf-cae1-484c-b7fb-6999aacd3a00", null, "Student", "STUDENT" },
-                    { "6dddd1bb-4d93-4c17-a0c8-21c8b485b5f9", null, "Admin", "ADMIN" },
-                    { "70360925-baef-4893-a830-78330da78d18", null, "SuperAdmin", "SUPERADMIN" },
-                    { "f844a4bc-b69f-4d5c-982b-ba5565d17064", null, "Instructor", "INSTRUCTOR" }
+                    { "231be9ee-f3f6-44fa-a242-ee79f811e7df", null, "Student", "STUDENT" },
+                    { "4935ee0c-c39c-496f-9f10-0c3a8f0aef23", null, "Instructor", "INSTRUCTOR" },
+                    { "64945616-2b59-48fa-84f6-bfe49a9efb95", null, "SuperAdmin", "SUPERADMIN" },
+                    { "e02efafb-0bbc-4c9a-9fc7-3d242ee92355", null, "Admin", "ADMIN" }
                 });
 
             migrationBuilder.InsertData(
@@ -346,10 +346,10 @@ namespace OnlineCoursesApp.DAL.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "16fa3db8-1a15-40c2-8a53-61066f1806e2", 0, "834f13f0-e0f5-4320-a357-cbabd7c84633", "superAdmin@mail.com", true, false, null, "SUPERADMIN@MAIL.COM", "SUPERADMIN@MAIL.COM", "AQAAAAIAAYagAAAAENmxK/j9PpwDTGqZ5poy0u2+7mM+KuFi2a2uHfLATse0AdA9M15FeXxv61K1z3z6vg==", null, false, "d4e77463-f5db-42eb-95cf-47b6341866c0", false, "superAdmin@mail.com" },
-                    { "413bf88a-2a9a-47fb-8e40-3783d55ab68e", 0, "54092c83-c2c3-4bf3-8051-4813e15dbd33", "instructor@mail.com", true, false, null, "INSTRUCTOR@MAIL.COM", "INSTRUCTOR@MAIL.COM", "AQAAAAIAAYagAAAAEGAs4WSWMzZseCpLsIxmualb1NS5ZU70VNHGjNu5+7WiQX1st6Ht5W204qpKxrJuoA==", null, false, "576ce1d8-9d2f-472d-af2d-cfaf438f8a83", false, "instructor@mail.com" },
-                    { "50481779-3264-46f3-a323-b464e06efc0b", 0, "c8446670-b17a-4af3-9cf9-d61f3f468d7e", "admin@mail.com", true, false, null, "ADMIN@MAIL.COM", "ADMIN@MAIL.COM", "AQAAAAIAAYagAAAAEJnQYTGgAkcHb95H0AiY8wPMRYfKWXMmHzIrg/SxDztns6uRh4QWRLIH0R2iaacmew==", null, false, "10dcb1a7-708c-4f5b-8fa8-cc768fa1788d", false, "admin@mail.com" },
-                    { "d0c84e76-0c37-45d2-b8b1-1c10acfe2f5d", 0, "c7f26a58-c497-413b-a5ea-141bc4ae75dd", "student@mail.com", true, false, null, "STUDENT@MAIL.COM", "STUDENT@MAIL.COM", "AQAAAAIAAYagAAAAEEtAsqP9fVCvfxHFm8/40s/ZqEXnZ6CidDMtwFMbOreqeMiOZ4MDCvCYtR5TVpsbSQ==", null, false, "ef6c31fd-d998-4d0d-aefd-8ebe5e5429c1", false, "student@mail.com" }
+                    { "4e08e673-608c-4570-b2e7-9d178e4829b8", 0, "5ef7c8ab-86a6-47ae-b841-b7ff144fd46e", "superAdmin@mail.com", true, false, null, "SUPERADMIN@MAIL.COM", "SUPERADMIN@MAIL.COM", "AQAAAAIAAYagAAAAEIgybzxavv5ueztyntewVWGxfZkDTZ25YDTvnMJZZnAsPE4UbXFwhGcjU11f+wkMmA==", null, false, "99620f1f-3126-4a86-9886-f2d355a29150", false, "superAdmin@mail.com" },
+                    { "732054f3-762b-4700-a5a8-333ea678c20b", 0, "727f5b32-321e-4c95-ae83-bcc98b13406a", "instructor@mail.com", true, false, null, "INSTRUCTOR@MAIL.COM", "INSTRUCTOR@MAIL.COM", "AQAAAAIAAYagAAAAECCqmDomi1FqqEaSkWQi9NMkW6TyKs6ziZ2cxgsbdc2+wgkui/VZ1FaZiAXr/Hn5tw==", null, false, "9efe3bda-be79-4f99-9946-4c5aeb9bd0fe", false, "instructor@mail.com" },
+                    { "837297b0-0857-43af-9ad4-fb85bae737ab", 0, "e78fffe9-6e06-4121-9247-6b0f4bfdc253", "student@mail.com", true, false, null, "STUDENT@MAIL.COM", "STUDENT@MAIL.COM", "AQAAAAIAAYagAAAAEJ28XC5l8pey9rB2JDvu9bnzMbGZrTd7I58/XyI74LX97oSdwXVsYNg66u2EywLxQg==", null, false, "4f717ab1-dd6a-4fa6-b45d-b66b1d727be2", false, "student@mail.com" },
+                    { "8d6920a9-008a-4d0e-bcad-6eebe4b72aea", 0, "ba65c0c2-0887-41d6-8fa1-7bd3ff14e93e", "admin@mail.com", true, false, null, "ADMIN@MAIL.COM", "ADMIN@MAIL.COM", "AQAAAAIAAYagAAAAEKFY19qvizAehTeVQ+C9gyR9LeL5Ix7Ya22HZEfBvzIMh4VsyXmYyoJYwZQq4KK1+g==", null, false, "54e58486-f100-4fb8-9667-c99c0c45d4e2", false, "admin@mail.com" }
                 });
 
             migrationBuilder.InsertData(
@@ -357,30 +357,30 @@ namespace OnlineCoursesApp.DAL.Migrations
                 columns: new[] { "RoleId", "UserId" },
                 values: new object[,]
                 {
-                    { "6dddd1bb-4d93-4c17-a0c8-21c8b485b5f9", "16fa3db8-1a15-40c2-8a53-61066f1806e2" },
-                    { "70360925-baef-4893-a830-78330da78d18", "16fa3db8-1a15-40c2-8a53-61066f1806e2" },
-                    { "f844a4bc-b69f-4d5c-982b-ba5565d17064", "413bf88a-2a9a-47fb-8e40-3783d55ab68e" },
-                    { "6dddd1bb-4d93-4c17-a0c8-21c8b485b5f9", "50481779-3264-46f3-a323-b464e06efc0b" },
-                    { "0a96fdbf-cae1-484c-b7fb-6999aacd3a00", "d0c84e76-0c37-45d2-b8b1-1c10acfe2f5d" }
+                    { "64945616-2b59-48fa-84f6-bfe49a9efb95", "4e08e673-608c-4570-b2e7-9d178e4829b8" },
+                    { "e02efafb-0bbc-4c9a-9fc7-3d242ee92355", "4e08e673-608c-4570-b2e7-9d178e4829b8" },
+                    { "4935ee0c-c39c-496f-9f10-0c3a8f0aef23", "732054f3-762b-4700-a5a8-333ea678c20b" },
+                    { "231be9ee-f3f6-44fa-a242-ee79f811e7df", "837297b0-0857-43af-9ad4-fb85bae737ab" },
+                    { "e02efafb-0bbc-4c9a-9fc7-3d242ee92355", "8d6920a9-008a-4d0e-bcad-6eebe4b72aea" }
                 });
 
             migrationBuilder.InsertData(
                 table: "Instructors",
                 columns: new[] { "InstructorId", "About", "AccountStatus", "Email", "IdentityUserID", "Image", "Name" },
-                values: new object[] { -1, null, 0, "instructor@mail.com", "413bf88a-2a9a-47fb-8e40-3783d55ab68e", "/image/Instructor/default.png", "instructor Seed" });
+                values: new object[] { -1, null, 0, "instructor@mail.com", "732054f3-762b-4700-a5a8-333ea678c20b", "/image/Instructor/default.png", "instructor Seed" });
 
             migrationBuilder.InsertData(
                 table: "Students",
                 columns: new[] { "StudentId", "AccountStatus", "Education", "Email", "IdentityUserID", "Image", "Name" },
-                values: new object[] { -1, 0, null, "student@mail.com", "d0c84e76-0c37-45d2-b8b1-1c10acfe2f5d", "/image/Student/default.png", "Student Seed" });
+                values: new object[] { -1, 0, null, "student@mail.com", "837297b0-0857-43af-9ad4-fb85bae737ab", "/image/Student/default.png", "Student Seed" });
 
             migrationBuilder.InsertData(
                 table: "WebAdmins",
                 columns: new[] { "ID", "AccountStatus", "Email", "IdentityUserID", "Name" },
                 values: new object[,]
                 {
-                    { -2, 0, "admin@mail.com", "50481779-3264-46f3-a323-b464e06efc0b", "Normal Admin" },
-                    { -1, 0, "superAdmin@mail.com", "16fa3db8-1a15-40c2-8a53-61066f1806e2", "Super Admin" }
+                    { -2, 0, "admin@mail.com", "8d6920a9-008a-4d0e-bcad-6eebe4b72aea", "Normal Admin" },
+                    { -1, 0, "superAdmin@mail.com", "4e08e673-608c-4570-b2e7-9d178e4829b8", "Super Admin" }
                 });
 
             migrationBuilder.CreateIndex(
